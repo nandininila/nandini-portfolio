@@ -1,5 +1,8 @@
 import React from 'react';
 import './Project.css'
+import eCommerce from './images/E-commerce.png'
+import TravelPartner from './images/Travel Partner.png'
+import CodeSpace from './images/Code Space.png'
 
 const Project = () => {
   return (
@@ -13,7 +16,7 @@ const Project = () => {
 
         <div className="cart shadow-xl border-2 grid justify-center p-6">
           <div className=''>
-            <img className='w-100%' src="https://i.ibb.co/5BHZrjy/20220610-140112.jpg" class="max-w-sm  shadow-2xl" alt="" />
+            <img className='w-100%' src={eCommerce} class="max-w-sm  shadow-2xl" alt="" />
           </div>
 
           <div className="">
@@ -34,7 +37,7 @@ const Project = () => {
 
         <div className="cart shadow-xl border-2 grid justify-center p-6">
           <div className=''>
-            <img className='w-100%' src="https://i.ibb.co/TbCP8bf/20220610-140210.jpg" class="max-w-sm  shadow-2xl" alt="" />
+            <img className='w-100%' src={TravelPartner}class="max-w-sm  shadow-2xl" alt="" />
           </div>
 
           <div className="text-white">
@@ -54,7 +57,7 @@ const Project = () => {
 
         <div className="cart shadow-xl border-2  grid justify-center p-6">
           <div className=''>
-            <img className='w-100%' src="https://i.ibb.co/bsJ6QSP/20220610-140320.jpg" class="max-w-sm  shadow-2xl" alt="" />
+            <img className='w-100%' src={CodeSpace} class="max-w-sm  shadow-2xl" alt="" />
           </div>
 
           <div className="text-white">
