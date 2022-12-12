@@ -29,11 +29,11 @@ const About = () => {
 
                         <div className="flex justify-center mt-2">
 
-                            <a href="https://github.com/nandininila/"><p className='text-2xl text-white style'> <AiFillGithub></AiFillGithub></p></a>
+                            <a href="https://github.com/shahriar7ahmed/"><p className='text-2xl text-white style'> <AiFillGithub></AiFillGithub></p></a>
 
-                            <a href="https://www.facebook.com/nandininila2/"><p className='text-2xl text-white style '> <BsFacebook></BsFacebook></p></a>
+                            <a href="https://www.facebook.com/shahriar7ahmed/"><p className='text-2xl text-white style '> <BsFacebook></BsFacebook></p></a>
 
-                            <a href="https://www.linkedin.com/in/nandini-das1/">
+                            <a href="https://www.linkedin.com/in/shahriar7ahmed/">
                                 <p className='text-2xl text-white style '> <SiLinkedin></SiLinkedin></p>
                             </a>
 
@@ -46,7 +46,7 @@ const About = () => {
                     < div className='px-16 mt-12 text-white'>
 
 
-                        <div>Hello,I'am Nandini Das, from Dhaka Bangladesh.
+                        <div>Hello, I'am Shahriar Ahmed, from Kushtia, Khulna.
                             <br />
                             I like the world of programming for a Reason.
                             <br />
@@ -74,13 +74,6 @@ const About = () => {
 
 
                         <div className='mt-6'>
-
-
-                            {/* <a href="https://github.com/mozahidahmed"><i class="fa-brands fa-github  text-2xl i-style mx-6"></i></a>
-
-                      <i class="fa-brands fa-facebook text-2xl i-style mx-6 "></i>
-                      <Link to="/contact"><i class="fa-solid fa-envelope text-2xl i-style mx-6 "></i></Link>
-                         */}
 
                             <Link to="/contact">
                                 <button
